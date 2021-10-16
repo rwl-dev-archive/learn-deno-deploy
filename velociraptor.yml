@@ -1,0 +1,10 @@
+scripts:
+  dev:
+    desc: Launched environment
+    cmd: deployctl run server.jsx
+  fmt:
+    desc: Format code
+    cmd: deno fmt --ignore=README.md,./.github/,.vscode/
+  test:
+    desc: Testing util code 
+    cmd: deno test
